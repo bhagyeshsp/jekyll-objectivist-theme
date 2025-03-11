@@ -2,7 +2,7 @@
 
 Serif is a modern business theme for Jekyll. It contains multiple content types for a typical brochure/marketing website. The theme is fully responsive and blazing fast.
 
-[Live Demo]()
+[Live Demo](https://bhagyeshsp.github.io/jekyll-objectivist-theme)
 
 ![Jekyll Objectivist Theme Home Screenshot](/assets/images/jekyll-objectivist-home.png)
 
@@ -50,7 +50,7 @@ bundle exec jekyll build
 
 This theme has been tested to work with Github Pages (and Github Project Pages). When using Github Pages you will need to update the `baseurl` in the `_config.yml` otherwise all the css, images and paths will be broken.
 
-For example the site https://bhagyeshsp.github.io/jekyll-objectivist-theme would have `baseurl: "/jekyll-objectivist-theme/"`
+For example the site https://bhagyeshsp.github.io/jekyll-objectivist-theme has `baseurl: "/jekyll-objectivist-theme/"` and `url: "https://bhagyeshsp.github.io"`
 
 ## More
 
