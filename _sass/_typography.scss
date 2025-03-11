@@ -1,0 +1,147 @@
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+  font-weight: $font-weight-bold;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: $spacing-small;
+  color: $text-color;
+}
+
+h1 {
+  font-size: 2.5rem;
+  
+  @include media-breakpoint-up(md) {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  
+  @include media-breakpoint-up(md) {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+// Paragraphs
+p {
+  margin-top: 0;
+  margin-bottom: $spacing-unit;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Lead paragraph
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  
+  @include media-breakpoint-up(md) {
+    font-size: 1.5rem;
+  }
+}
+
+// Lists
+ul, ol {
+  margin-top: 0;
+  margin-bottom: $spacing-unit;
+  padding-left: $spacing-unit;
+  
+  li {
+    margin-bottom: $spacing-small;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Blockquotes
+blockquote {
+  margin: $spacing-unit 0;
+  padding: $spacing-small $spacing-unit;
+  border-left: 4px solid $primary-color;
+  background-color: rgba($primary-color, 0.05);
+  
+  p {
+    font-style: italic;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Code
+pre, code {
+  font-family: monospace;
+  font-size: 0.9rem;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background-color: #f8f8f8;
+}
+
+code {
+  padding: 2px 4px;
+}
+
+pre {
+  padding: $spacing-small;
+  overflow-x: auto;
+  
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+// Text utilities
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-muted {
+  color: $text-light;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-accent {
+  color: $accent-color;
+}
+

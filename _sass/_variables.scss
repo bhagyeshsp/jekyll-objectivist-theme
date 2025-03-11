@@ -1,0 +1,48 @@
+// Colors
+$primary-color: #4a6baf;
+$secondary-color: #5a7cc5;
+$accent-color: #f8c630;
+$text-color: #333333;
+$text-light: #666666;
+$background-color: #ffffff;
+$background-alt: #f9f9f9;
+$border-color: #e0e0e0;
+$error-color: #d9534f;
+$success-color: #5cb85c;
+$code-background: #f8f9fa;
+
+// Typography
+$font-family-base: 'Helvetica Neue', Arial, sans-serif;
+$font-family-heading: 'Helvetica Neue', Arial, sans-serif;
+$monospace-font: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+$font-size-base: 16px;
+$line-height-base: 1.6;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// Spacing
+$spacing-unit: 30px;
+$spacing-small: $spacing-unit / 2;
+$spacing-large: $spacing-unit * 2;
+
+// Breakpoints
+$breakpoint-xs: 576px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+
+// Container widths
+$container-max-width: 1140px;
+
+// Border radius
+$border-radius: 4px;
+$border-radius-large: 8px;
+
+// Transitions
+$transition-base: all 0.3s ease;
+
+// Z-index
+$z-index-header: 1000;
+$z-index-dropdown: 1010;
+$z-index-modal: 1050;
+

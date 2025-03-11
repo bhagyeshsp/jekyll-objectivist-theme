@@ -1,0 +1,73 @@
+// Form styles
+.form-group {
+  margin-bottom: $spacing-unit;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: $font-weight-bold;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: $text-color;
+  background-color: $background-color;
+  background-clip: padding-box;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  @include transition;
+  
+  &:focus {
+    border-color: $primary-color;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba($primary-color, 0.25);
+  }
+  
+  &::placeholder {
+    color: $text-light;
+    opacity: 1;
+  }
+  
+  &:disabled,
+  &[readonly] {
+    background-color: $background-alt;
+    opacity: 1;
+  }
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.form-check {
+  position: relative;
+  display: block;
+  padding-left: 1.25rem;
+  
+  .form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -1.25rem;
+  }
+  
+  .form-check-label {
+    margin-bottom: 0;
+  }
+}
+
+// Contact form
+.contact-form {
+  margin-bottom: $spacing-unit;
+}
+
+.contact-info {
+  padding: $spacing-unit;
+  background-color: $background-alt;
+  border-radius: $border-radius;
+}
+

@@ -1,0 +1,45 @@
+// Navigation styles
+.site-nav {
+  .nav-links {
+    display: flex;
+    
+    @include media-breakpoint-down(sm) {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: $background-color;
+      border-bottom: 1px solid $border-color;
+      padding: $spacing-unit;
+      flex-direction: column;
+    }
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: $text-color;
+    font-weight: $font-weight-bold;
+    @include transition;
+    
+    &:hover, &.active {
+      color: $primary-color;
+      text-decoration: none;
+    }
+    
+    @include media-breakpoint-down(sm) {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid $border-color;
+      
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+  
+  .nav-trigger:checked ~ .nav-links {
+    display: flex;
+  }
+}
+

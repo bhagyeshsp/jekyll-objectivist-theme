@@ -1,0 +1,82 @@
+// Button styles
+.btn {
+  display: inline-block;
+  font-weight: $font-weight-bold;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: $border-radius;
+  cursor: pointer;
+  @include transition;
+  
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+  
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba($primary-color, 0.25);
+  }
+  
+  // Button sizes
+  &.btn-sm {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+  
+  &.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+  }
+  
+  // Button variants
+  &.btn-primary {
+    color: white;
+    background-color: $primary-color;
+    border-color: $primary-color;
+    
+    &:hover {
+      background-color: darken($primary-color, 10%);
+      border-color: darken($primary-color, 12%);
+    }
+  }
+  
+  &.btn-secondary {
+    color: white;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+      border-color: darken($secondary-color, 12%);
+    }
+  }
+  
+  &.btn-outline-primary {
+    color: $primary-color;
+    background-color: transparent;
+    border-color: $primary-color;
+    
+    &:hover {
+      color: white;
+      background-color: $primary-color;
+    }
+  }
+  
+  &.btn-outline-secondary {
+    color: $secondary-color;
+    background-color: transparent;
+    border-color: $secondary-color;
+    
+    &:hover {
+      color: white;
+      background-color: $secondary-color;
+    }
+  }
+}
+

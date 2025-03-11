@@ -1,0 +1,46 @@
+// Header styles
+.site-header {
+  padding: $spacing-small 0;
+  background-color: $background-color;
+  border-bottom: 1px solid $border-color;
+  position: sticky;
+  top: 0;
+  z-index: $z-index-header;
+  
+  .header-content {
+    @include flex-between;
+  }
+  
+  .site-logo {
+    display: block;
+    
+    img {
+      height: 40px;
+    }
+  }
+  
+  // Mobile menu toggle
+  .nav-trigger {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+    
+    > svg {
+      fill: $text-color;
+    }
+    
+    @include media-breakpoint-down(sm) {
+      display: block;
+      float: right;
+      cursor: pointer;
+    }
+  }
+}
+

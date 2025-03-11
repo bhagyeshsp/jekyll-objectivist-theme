@@ -1,0 +1,16 @@
+// Home page specific styles
+.home {
+  .hero {
+    background-color: $primary-color;
+    color: white;
+    
+    h1, .lead {
+      color: white;
+    }
+  }
+  
+  .features {
+    background-color: $background-alt;
+  }
+}
+

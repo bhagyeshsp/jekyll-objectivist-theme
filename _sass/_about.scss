@@ -1,0 +1,14 @@
+// About page specific styles
+.about-content {
+  .team-section, .mission-section {
+    margin-top: $spacing-large;
+    margin-bottom: $spacing-large;
+  }
+  
+  .mission-section {
+    background-color: $background-alt;
+    padding: $spacing-unit;
+    border-radius: $border-radius;
+  }
+}
+

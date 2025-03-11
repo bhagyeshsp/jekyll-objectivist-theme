@@ -1,0 +1,66 @@
+// Card styles
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: $background-color;
+  background-clip: border-box;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  @include box-shadow-sm;
+  @include transition;
+  
+  &:hover {
+    @include box-shadow-md;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(#{$border-radius} - 1px);
+    border-top-right-radius: calc(#{$border-radius} - 1px);
+  }
+  
+  .card-body {
+    flex: 1 1 auto;
+    padding: $spacing-unit;
+  }
+  
+  .card-title {
+    margin-bottom: $spacing-small;
+  }
+  
+  .card-text {
+    margin-bottom: $spacing-unit;
+  }
+  
+  .card-footer {
+    padding: $spacing-small $spacing-unit;
+    background-color: $background-alt;
+    border-top: 1px solid $border-color;
+  }
+}
+
+// Team member card
+.team-member {
+  text-align: center;
+  margin-bottom: $spacing-unit;
+  
+  .team-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: $spacing-small;
+    object-fit: cover;
+  }
+  
+  h4 {
+    margin-bottom: 0.25rem;
+  }
+  
+  p {
+    color: $text-light;
+  }
+}
+

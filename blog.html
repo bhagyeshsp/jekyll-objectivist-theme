@@ -1,0 +1,26 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<div class="blog-content">
+  <h2>Our Blog</h2>
+  <p>Stay updated with our latest news and articles.</p>
+  
+  <div class="post-list">
+    {% for post in site.posts %}
+    <div class="post-item">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncate: 200 }}</p>
+      <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
+    </div>
+    {% endfor %}
+  </div>
+  
+  {% if site.posts.size == 0 %}
+  <p>No posts yet. Check back soon!</p>
+  {% endif %}
+</div>
+

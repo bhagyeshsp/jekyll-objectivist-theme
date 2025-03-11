@@ -1,0 +1,37 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>About Us</h3>
+          <p>{{ site.description }}</p>
+        </div>
+        
+        <div class="col-md-4">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/about' | relative_url }}">About</a></li>
+            <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+            <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-4">
+          <h3>Connect With Us</h3>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title | default: "Your Website" }}. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+

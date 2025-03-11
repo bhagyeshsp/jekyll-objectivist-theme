@@ -1,0 +1,127 @@
+// Main layout styles
+
+// Main content area
+.main-content {
+  min-height: 70vh;
+  padding: $spacing-unit 0;
+}
+
+// Page content
+.page-content {
+  padding: $spacing-unit 0;
+  
+  .page-header {
+    margin-bottom: $spacing-large;
+    text-align: center;
+  }
+  
+  .page-body {
+    margin-bottom: $spacing-large;
+  }
+}
+
+// Sections
+.section {
+  padding: $spacing-large 0;
+  
+  &.section-alt {
+    background-color: $background-alt;
+  }
+  
+  .section-header {
+    margin-bottom: $spacing-large;
+    text-align: center;
+    
+    h2 {
+      margin-bottom: $spacing-small;
+    }
+    
+    p {
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      color: $text-light;
+    }
+  }
+}
+
+// Hero section
+.hero {
+  padding: $spacing-large 0;
+  text-align: center;
+  background-color: $background-alt;
+  
+  @include media-breakpoint-up(md) {
+    padding: $spacing-large * 2 0;
+  }
+  
+  h1 {
+    margin-bottom: $spacing-small;
+  }
+  
+  .lead {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+// Features section
+.features {
+  padding: $spacing-large 0;
+  
+  .feature-card {
+    height: 100%;
+    padding: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    border-radius: $border-radius;
+    background-color: $background-color;
+    @include box-shadow-sm;
+    @include transition;
+    
+    &:hover {
+      @include box-shadow-md;
+      transform: translateY(-5px);
+    }
+    
+    h3 {
+      margin-bottom: $spacing-small;
+    }
+  }
+}
+
+// CTA section
+.cta {
+  padding: $spacing-large 0;
+  text-align: center;
+  background-color: $primary-color;
+  color: white;
+  
+  h2 {
+    color: white;
+    margin-bottom: $spacing-small;
+  }
+  
+  p {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+// Error page
+.error-page {
+  padding: $spacing-large * 2 0;
+  text-align: center;
+  
+  h1 {
+    font-size: 6rem;
+    margin-bottom: $spacing-small;
+    color: $primary-color;
+  }
+  
+  h2 {
+    margin-bottom: $spacing-unit;
+  }
+  
+  p {
+    margin-bottom: $spacing-unit;
+  }
+}
+

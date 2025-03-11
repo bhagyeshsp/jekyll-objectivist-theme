@@ -1,0 +1,72 @@
+// Footer styles
+.site-footer {
+  padding: $spacing-large 0;
+  background-color: #2c3e50;
+  color: white;
+  
+  h3 {
+    color: white;
+    margin-bottom: $spacing-unit;
+    font-size: 1.25rem;
+  }
+  
+  p {
+    color: rgba(white, 0.8);
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      margin-bottom: $spacing-small;
+    }
+    
+    a {
+      color: rgba(white, 0.8);
+      
+      &:hover {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .social-links {
+    display: flex;
+    margin-top: $spacing-unit;
+    
+    .social-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      border-radius: 50%;
+      background-color: rgba(white, 0.1);
+      color: white;
+      @include transition;
+      
+      &:hover {
+        background-color: $primary-color;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .copyright {
+    margin-top: $spacing-large;
+    padding-top: $spacing-unit;
+    border-top: 1px solid rgba(white, 0.1);
+    text-align: center;
+    
+    p {
+      margin-bottom: 0;
+      font-size: 0.9rem;
+    }
+  }
+}
+
