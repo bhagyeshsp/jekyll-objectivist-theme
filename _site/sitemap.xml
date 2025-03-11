@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/blog/2023/01/01/welcome-to-jekyll/</loc>
+<loc>https://bhagyeshsp.github.io/jekyll-objectivist-theme/blog/2023/01/01/welcome-to-jekyll/</loc>
 <lastmod>2023-01-01T22:30:00+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/2023/01/02/markdown-sample/</loc>
+<loc>https://bhagyeshsp.github.io/jekyll-objectivist-theme/blog/2023/01/02/markdown-sample/</loc>
 <lastmod>2023-01-02T22:30:00+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
+<loc>https://bhagyeshsp.github.io/jekyll-objectivist-theme/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/blog/</loc>
+<loc>https://bhagyeshsp.github.io/jekyll-objectivist-theme/blog/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/contact/</loc>
+<loc>https://bhagyeshsp.github.io/jekyll-objectivist-theme/contact/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://bhagyeshsp.github.io/jekyll-objectivist-theme/</loc>
 </url>
 </urlset>
