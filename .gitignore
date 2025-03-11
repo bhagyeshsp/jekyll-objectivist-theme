@@ -27,7 +27,6 @@ yarn-error.log*
 next-env.d.ts
 
 # Jekyll and Sass cache files
-_site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata

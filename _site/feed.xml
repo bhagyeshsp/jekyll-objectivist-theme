@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-11T14:18:11+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jekyll Objectivist</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Markdown Sample</title><link href="http://localhost:4000/blog/2023/01/02/markdown-sample/" rel="alternate" type="text/html" title="Markdown Sample" /><published>2023-01-02T22:30:00+05:30</published><updated>2023-01-02T22:30:00+05:30</updated><id>http://localhost:4000/blog/2023/01/02/markdown-sample</id><content type="html" xml:base="http://localhost:4000/blog/2023/01/02/markdown-sample/"><![CDATA[<h3 id="markdown-test-document">Markdown test document</h3>
+
+<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href="https://github.com">Links</a> should be have dotted underlines and solid underlines on hover.</p>
+
+<p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
+
+<p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
+
+<blockquote>
+  <p>There should be no margin above this first sentence.</p>
+
+  <p>Blockquotes should be a italicized with a gray border along the left side.</p>
+
+  <p>There should be no margin below this final sentence.</p>
+</blockquote>
+
+<h1 id="heading-1">Heading 1</h1>
+
+<p>This is a normal paragraph following a Heading. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
+
+<h2 id="heading-2">Heading 2</h2>
+
+<p>This is a normal paragraph following a Heading. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
+
+<blockquote>
+  <p>This is a blockquote following a Heading. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
+</blockquote>
+
+<p>This is a normal paragraph following a Heading. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
+
+<h3 id="heading-3">Heading 3</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is a code block following a Heading.
+</code></pre></div></div>
+
+<h4 id="heading-4">Heading 4</h4>
+
+<ul>
+  <li>This is an unordered list following a Heading.</li>
+  <li>This is an unordered list following a Heading.</li>
+  <li>This is an unordered list following a Heading.</li>
+</ul>
+
+<h5 id="heading-5">Heading 5</h5>
+
+<ol>
+  <li>This is an ordered list following a Heading.</li>
+  <li>This is an ordered list following a Heading.</li>
+  <li>This is an ordered list following a Heading.</li>
+</ol>
+
+<h6 id="heading-6">Heading 6</h6>
+
+<table>
+  <thead>
+    <tr>
+      <th>What</th>
+      <th>Follows</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A table</td>
+      <td>A Heading</td>
+    </tr>
+    <tr>
+      <td>A table</td>
+      <td>A Heading</td>
+    </tr>
+    <tr>
+      <td>A table</td>
+      <td>A Heading</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>There’s a horizontal rule above and below this.</p>
+
+<hr />
+
+<p>Here is an unordered list:</p>
+
+<ul>
+  <li>Salt-n-Pepa</li>
+  <li>Bel Biv DeVoe</li>
+  <li>Kid ‘N Play</li>
+</ul>
+
+<p>And an ordered list:</p>
+
+<ol>
+  <li>Michael Jackson</li>
+  <li>Michael Bolton</li>
+  <li>Michael Bublé</li>
+</ol>
+
+<p>And a nested list:</p>
+
+<ul>
+  <li>Jackson 5
+    <ul>
+      <li>Michael</li>
+      <li>Tito</li>
+      <li>Jackie</li>
+      <li>Marlon</li>
+      <li>Jermaine</li>
+    </ul>
+  </li>
+  <li>TMNT
+    <ul>
+      <li>Leonardo</li>
+      <li>Michelangelo</li>
+      <li>Donatello</li>
+      <li>Raphael</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Definition lists can be used with HTML syntax. Definition terms are bold and italic.</p>
+
+<dl>
+    <dt>Name</dt>
+    <dd>Godzilla</dd>
+    <dt>Born</dt>
+    <dd>1952</dd>
+    <dt>Birthplace</dt>
+    <dd>Japan</dd>
+    <dt>Color</dt>
+    <dd>Green</dd>
+</dl>
+
+<hr />
+
+<p>Tables should have bold headings and alternating shaded rows.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Artist</th>
+      <th>Album</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Michael Jackson</td>
+      <td>Thriller</td>
+      <td>1982</td>
+    </tr>
+    <tr>
+      <td>Prince</td>
+      <td>Purple Rain</td>
+      <td>1984</td>
+    </tr>
+    <tr>
+      <td>Beastie Boys</td>
+      <td>License to Ill</td>
+      <td>1986</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If a table is too wide, it should condense down and/or scroll horizontally.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Artist</th>
+      <th>Album</th>
+      <th>Year</th>
+      <th>Label</th>
+      <th>Awards</th>
+      <th>Songs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Michael Jackson</td>
+      <td>Thriller</td>
+      <td>1982</td>
+      <td>Epic Records</td>
+      <td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical</td>
+      <td>Wanna Be Startin’ Somethin’, Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life</td>
+    </tr>
+    <tr>
+      <td>Prince</td>
+      <td>Purple Rain</td>
+      <td>1984</td>
+      <td>Warner Brothers Records</td>
+      <td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal</td>
+      <td>Let’s Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I’m a Star, Purple Rain</td>
+    </tr>
+    <tr>
+      <td>Beastie Boys</td>
+      <td>License to Ill</td>
+      <td>1986</td>
+      <td>Mercury Records</td>
+      <td>noawardsbutthistablecelliswide</td>
+      <td>Rhymin &amp; Stealin, The New Style, She’s Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>Code snippets like <code class="language-plaintext highlighter-rouge">var foo = "bar";</code> can be shown inline.</p>
+
+<p>Also, <code class="language-plaintext highlighter-rouge">this should vertically align</code> <del><code class="language-plaintext highlighter-rouge">with this</code></del> <del>and this</del>.</p>
+
+<p>Code can also be shown in a block element.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var foo = "bar";
+</code></pre></div></div>
+
+<p>Code can also use syntax highlighting.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">bar</span><span class="dl">"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+</code></pre></div></div>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">The same thing is true for code with syntax highlighting. A single line of code should horizontally scroll if it is really long.</span><span class="dl">"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Inline code inside table cells should still be distinguishable.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Javascript</td>
+      <td><code class="language-plaintext highlighter-rouge">var foo = "bar";</code></td>
+    </tr>
+    <tr>
+      <td>Ruby</td>
+      <td><code class="language-plaintext highlighter-rouge">foo = "bar"</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>Small images should be shown at their actual size.</p>
+
+<p><img src="http://placekitten.com/g/300/200/" alt="" /></p>
+
+<p>Large images should always scale down and fit in the content container.</p>
+
+<p><img src="http://placekitten.com/g/1200/800/" alt="" /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is the final element on the page and there should be no margin below this.
+</code></pre></div></div>
+<!-- %enddocs -->
+
+<h2 id="license">License</h2>
+
+<p><a href="./LICENSE">MIT</a></p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Markdown test document]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2023/01/01/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-01-01T22:30:00+05:30</published><updated>2023-01-01T22:30:00+05:30</updated><id>http://localhost:4000/blog/2023/01/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2023/01/01/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<h2 id="adding-new-posts">Adding New Posts</h2>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.md</code> with the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<p>```ruby
+def print_hi(name)
+  puts “Hi, #{name}”
+end
+print_hi(‘Tom’)
+#=&gt; prints ‘Hi, Tom’ to STDOUT.
+Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
